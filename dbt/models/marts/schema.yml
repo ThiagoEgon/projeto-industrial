@@ -1,0 +1,53 @@
+# schema.yml (marts)
+# Documenta modelos, colunas e testes essenciais.
+
+version: 2
+
+models:
+  - name: dim_maquina
+    description: "Dimensão máquina (1 linha por id_maquina)"
+    columns:
+      - name: id_maquina
+        tests: [not_null]
+
+  - name: dim_tempo
+    description: "Dimensão tempo por hora (derivada de eventos)"
+    columns:
+      - name: mes
+        tests: [not_null]
+
+  - name: agg_sensores_hora
+    description: "Agregações de sensores por máquina-hora"
+    columns:
+      - name: id_maquina
+        tests: [not_null]
+      - name: timestamp_hour
+        tests: [not_null]
+
+  - name: agg_eventos_hora
+    description: "Agregações de eventos por máquina-hora"
+    columns:
+      - name: id_maquina
+        tests: [not_null]
+      - name: timestamp_hour
+        tests: [not_null]
+
+  - name: fato_eventos
+    description: "Fato de eventos com grão por evento"
+    columns:
+      - name: id_evento
+        tests: [not_null]
+
+  - name: fato_sensores
+    description: "Fato de leituras de sensores unida por hora"
+    columns:
+      - name: id_maquina
+        tests: [not_null]
+
+  - name: fato_operacional
+    description: "Fato derivada por máquina-hora combinando métricas de sensores e eventos"
+    columns:
+      - name: id_maquina
+        tests: [not_null]
+      - name: timestamp_hour
+        tests: [not_null]

@@ -1,0 +1,42 @@
+name: 'pipeline_manutencao'
+version: '1.0'
+config-version: 2
+profile: 'pipeline_manutencao'
+
+model-paths: ["models"]
+analysis-paths: ["analysis"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+docs-paths: ["."]
+
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_modules"
+
+models:
+  pipeline_manutencao:
+    staging:
+      +materialized: view
+
+      stg_eventos_manutencao:
+        +vars:
+          minio_endpoint: "{{ env_var('MINIO_ENDPOINT') }}"
+          minio_access_key: "{{ env_var('MINIO_ACCESS_KEY') }}"
+          minio_secret_key: "{{ env_var('MINIO_SECRET_KEY') }}"
+
+      stg_maquinas:
+        +vars:
+          minio_endpoint: "{{ env_var('MINIO_ENDPOINT') }}"
+          minio_access_key: "{{ env_var('MINIO_ACCESS_KEY') }}"
+          minio_secret_key: "{{ env_var('MINIO_SECRET_KEY') }}"
+
+      stg_sensores:
+        +vars:
+          minio_endpoint: "{{ env_var('MINIO_ENDPOINT') }}"
+          minio_access_key: "{{ env_var('MINIO_ACCESS_KEY') }}"
+          minio_secret_key: "{{ env_var('MINIO_SECRET_KEY') }}"
+
+    marts:
+      +materialized: table

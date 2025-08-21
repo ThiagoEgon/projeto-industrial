@@ -1,0 +1,3 @@
+# Dependências do projeto dbt/DuckDB
+dbt-duckdb==1.9.4
+duckdb==1.0.0

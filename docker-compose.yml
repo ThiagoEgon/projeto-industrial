@@ -1,0 +1,147 @@
+# docker-compose.yml
+# Objetivo: definir os serviços do pipeline ELT (Postgres, MinIO, Airflow, dbt) e suas integrações.
+# Pré-requisitos:
+# - Criar um arquivo .env com variáveis: MINIO_ROOT_USER, MINIO_ROOT_PASSWORD, AIRFLOW_USER, AIRFLOW_PASSWORD, AIRFLOW_SECRET_KEY, AIRFLOW_UID.
+# Acessos:
+# - Airflow Web UI: http://localhost:8080
+# - MinIO Console: http://localhost:9001
+# - dbt docs (após comando serve): http://localhost:8081
+
+services:
+
+  postgres:
+    # Banco de metadados do Airflow
+    image: postgres:13
+    container_name: postgres
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "airflow"]
+      interval: 5s
+      retries: 5
+    volumes:
+      - postgres_data:/var/lib/postgresql/data  # persistência do Postgres
+
+  minio:
+    # Data Lake S3-compatível local
+    image: minio/minio:latest
+    container_name: minio
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD}
+    command: server /data --console-address ":9001"
+    ports:
+      - "9000:9000"   # API S3
+      - "9001:9001"   # Console MinIO
+    volumes:
+      - minio_data:/data  # persistência do MinIO
+
+  dbt:
+    # Container para executar dbt (run, test, docs generate e docs serve)
+    build: ./dbt
+    container_name: dbt_service
+    working_dir: /dbt_project
+    ports:
+      - "8081:8080"  # exposição para acessar dbt docs
+    volumes:
+      - ./dbt:/dbt_project
+      - ./dbt/profiles.yml:/root/.dbt/profiles.yml
+      - ./data:/opt/airflow/data
+    environment:
+      MINIO_ENDPOINT: minio:9000
+      MINIO_ACCESS_KEY: ${MINIO_ROOT_USER}
+      MINIO_SECRET_KEY: ${MINIO_ROOT_PASSWORD}
+      DBT_DUCKDB_S3_ACCESS_KEY_ID: ${MINIO_ROOT_USER}       # corrige erro de env var ausente
+      DBT_DUCKDB_S3_SECRET_ACCESS_KEY: ${MINIO_ROOT_PASSWORD}
+      DBT_DUCKDB_S3_URL_STYLE: path
+    command: >
+      bash -c "
+        dbt docs serve --profiles-dir /root/.dbt --project-dir /dbt_project --host 0.0.0.0 --port 8080 --no-browser
+      "
+
+  airflow-init:
+    # Job one-off para inicializar DB do Airflow e criar usuário admin
+    image: apache/airflow:2.9.3
+    entrypoint: /bin/bash
+    command:
+      - -c
+      - |
+        airflow db init &&
+        airflow users create \
+          --username "${AIRFLOW_USER}" \
+          --password "${AIRFLOW_PASSWORD}" \
+          --firstname Admin \
+          --lastname User \
+          --role Admin \
+          --email admin@example.com
+    environment:
+      AIRFLOW__WEBSERVER__SECRET_KEY: "${AIRFLOW_SECRET_KEY}"
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__CORE__LOAD_EXAMPLES: 'False'
+      AIRFLOW_UID: ${AIRFLOW_UID}
+    depends_on:
+      postgres:
+        condition: service_healthy
+    user: "${AIRFLOW_UID}:999"
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./data:/opt/airflow/data
+    restart: "no"
+
+  airflow-webserver:
+    # UI do Airflow e execução de DAGs
+    image: apache/airflow:2.9.3
+    command: webserver
+    ports:
+      - "8080:8080"
+    environment:
+      AIRFLOW__WEBSERVER__SECRET_KEY: "${AIRFLOW_SECRET_KEY}"
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__CORE__LOAD_EXAMPLES: 'False'
+      AIRFLOW_UID: ${AIRFLOW_UID}
+      # Variáveis para acessar MinIO
+      MINIO_ENDPOINT_URL: http://minio:9000
+      MINIO_ACCESS_KEY: ${MINIO_ROOT_USER}
+      MINIO_SECRET_KEY: ${MINIO_ROOT_PASSWORD}
+    depends_on:
+      postgres:
+        condition: service_healthy
+      airflow-init:
+        condition: service_completed_successfully
+    user: "${AIRFLOW_UID}:999"
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./data:/opt/airflow/data
+      - /var/run/docker.sock:/var/run/docker.sock  # permite docker exec para rodar dbt a partir do Airflow
+
+  airflow-scheduler:
+    # Scheduler de DAGs
+    image: apache/airflow:2.9.3
+    command: scheduler
+    environment:
+      AIRFLOW__WEBSERVER__SECRET_KEY: "${AIRFLOW_SECRET_KEY}"
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__CORE__LOAD_EXAMPLES: 'False'
+      AIRFLOW_UID: ${AIRFLOW_UID}
+      MINIO_ENDPOINT_URL: http://minio:9000
+      MINIO_ACCESS_KEY: ${MINIO_ROOT_USER}
+      MINIO_SECRET_KEY: ${MINIO_ROOT_PASSWORD}
+    depends_on:
+      postgres:
+        condition: service_healthy
+      airflow-init:
+        condition: service_completed_successfully
+    user: "${AIRFLOW_UID}:999"
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./data:/opt/airflow/data
+      - /var/run/docker.sock:/var/run/docker.sock
+
+volumes:
+  postgres_data:  # persistência dos dados do Postgres
+  minio_data:     # persistência dos dados do MinIO

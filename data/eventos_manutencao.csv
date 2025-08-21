@@ -1,0 +1,501 @@
+id_evento,id_maquina,data_evento,tipo_evento,descricao
+EVT_0001,MCH_0054,2025-03-24 22:33:32.567632,Preventiva,Lubrificação
+EVT_0002,MCH_0030,2025-04-19 22:33:32.567632,Inspeção,Troca de componente
+EVT_0003,MCH_0080,2025-02-28 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0004,MCH_0059,2025-03-03 22:33:32.567632,Inspeção,Troca de componente
+EVT_0005,MCH_0031,2025-03-11 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0006,MCH_0098,2025-02-28 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0007,MCH_0015,2025-04-22 22:33:32.567632,Corretiva,Troca de componente
+EVT_0008,MCH_0065,2025-04-08 22:33:32.567632,Corretiva,Lubrificação
+EVT_0009,MCH_0087,2025-04-27 22:33:32.567632,Inspeção,Lubrificação
+EVT_0010,MCH_0086,2025-03-15 22:33:32.567632,Inspeção,Troca de componente
+EVT_0011,MCH_0030,2025-04-24 22:33:32.567632,Preventiva,Lubrificação
+EVT_0012,MCH_0010,2025-03-22 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0013,MCH_0059,2025-03-25 22:33:32.567632,Preventiva,Troca de componente
+EVT_0014,MCH_0003,2025-04-04 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0015,MCH_0030,2025-03-22 22:33:32.567632,Inspeção,Lubrificação
+EVT_0016,MCH_0072,2025-03-27 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0017,MCH_0080,2025-03-10 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0018,MCH_0086,2025-03-29 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0019,MCH_0054,2025-03-06 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0020,MCH_0001,2025-03-05 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0021,MCH_0024,2025-03-14 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0022,MCH_0090,2025-04-28 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0023,MCH_0074,2025-04-28 22:33:32.567632,Corretiva,Troca de componente
+EVT_0024,MCH_0058,2025-03-19 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0025,MCH_0025,2025-04-05 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0026,MCH_0001,2025-04-12 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0027,MCH_0044,2025-03-29 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0028,MCH_0046,2025-04-14 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0029,MCH_0095,2025-04-09 22:33:32.567632,Preventiva,Troca de componente
+EVT_0030,MCH_0078,2025-02-28 22:33:32.567632,Inspeção,Troca de componente
+EVT_0031,MCH_0021,2025-03-19 22:33:32.567632,Corretiva,Troca de componente
+EVT_0032,MCH_0080,2025-04-21 22:33:32.567632,Inspeção,Troca de componente
+EVT_0033,MCH_0050,2025-04-20 22:33:32.567632,Corretiva,Lubrificação
+EVT_0034,MCH_0084,2025-03-22 22:33:32.567632,Corretiva,Lubrificação
+EVT_0035,MCH_0005,2025-04-25 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0036,MCH_0045,2025-04-12 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0037,MCH_0040,2025-03-17 22:33:32.567632,Inspeção,Lubrificação
+EVT_0038,MCH_0044,2025-03-02 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0039,MCH_0039,2025-03-29 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0040,MCH_0021,2025-04-09 22:33:32.567632,Corretiva,Lubrificação
+EVT_0041,MCH_0024,2025-03-24 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0042,MCH_0011,2025-03-04 22:33:32.567632,Corretiva,Troca de componente
+EVT_0043,MCH_0065,2025-04-11 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0044,MCH_0013,2025-03-24 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0045,MCH_0092,2025-03-04 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0046,MCH_0034,2025-03-04 22:33:32.567632,Inspeção,Troca de componente
+EVT_0047,MCH_0045,2025-03-08 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0048,MCH_0051,2025-03-14 22:33:32.567632,Preventiva,Troca de componente
+EVT_0049,MCH_0078,2025-03-12 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0050,MCH_0015,2025-04-02 22:33:32.567632,Inspeção,Lubrificação
+EVT_0051,MCH_0071,2025-03-19 22:33:32.567632,Inspeção,Lubrificação
+EVT_0052,MCH_0091,2025-04-18 22:33:32.567632,Corretiva,Lubrificação
+EVT_0053,MCH_0062,2025-04-03 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0054,MCH_0036,2025-03-22 22:33:32.567632,Corretiva,Troca de componente
+EVT_0055,MCH_0057,2025-04-11 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0056,MCH_0072,2025-03-24 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0057,MCH_0019,2025-03-04 22:33:32.567632,Corretiva,Troca de componente
+EVT_0058,MCH_0042,2025-03-27 22:33:32.567632,Inspeção,Lubrificação
+EVT_0059,MCH_0085,2025-04-28 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0060,MCH_0098,2025-04-02 22:33:32.567632,Preventiva,Lubrificação
+EVT_0061,MCH_0086,2025-04-06 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0062,MCH_0008,2025-04-01 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0063,MCH_0014,2025-04-19 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0064,MCH_0066,2025-03-29 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0065,MCH_0084,2025-04-02 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0066,MCH_0038,2025-03-24 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0067,MCH_0057,2025-03-08 22:33:32.567632,Preventiva,Lubrificação
+EVT_0068,MCH_0035,2025-03-08 22:33:32.567632,Preventiva,Troca de componente
+EVT_0069,MCH_0090,2025-04-09 22:33:32.567632,Inspeção,Troca de componente
+EVT_0070,MCH_0033,2025-04-11 22:33:32.567632,Corretiva,Lubrificação
+EVT_0071,MCH_0023,2025-03-28 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0072,MCH_0059,2025-03-07 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0073,MCH_0085,2025-03-11 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0074,MCH_0050,2025-03-01 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0075,MCH_0038,2025-03-19 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0076,MCH_0093,2025-03-04 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0077,MCH_0039,2025-03-13 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0078,MCH_0035,2025-04-27 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0079,MCH_0008,2025-03-06 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0080,MCH_0074,2025-03-22 22:33:32.567632,Inspeção,Lubrificação
+EVT_0081,MCH_0061,2025-03-20 22:33:32.567632,Inspeção,Lubrificação
+EVT_0082,MCH_0016,2025-04-03 22:33:32.567632,Inspeção,Troca de componente
+EVT_0083,MCH_0062,2025-04-07 22:33:32.567632,Inspeção,Troca de componente
+EVT_0084,MCH_0029,2025-03-04 22:33:32.567632,Corretiva,Lubrificação
+EVT_0085,MCH_0015,2025-04-22 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0086,MCH_0010,2025-04-13 22:33:32.567632,Preventiva,Lubrificação
+EVT_0087,MCH_0060,2025-03-01 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0088,MCH_0060,2025-03-15 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0089,MCH_0083,2025-03-29 22:33:32.567632,Inspeção,Troca de componente
+EVT_0090,MCH_0065,2025-03-13 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0091,MCH_0062,2025-04-02 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0092,MCH_0063,2025-04-03 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0093,MCH_0082,2025-03-18 22:33:32.567632,Corretiva,Lubrificação
+EVT_0094,MCH_0087,2025-04-21 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0095,MCH_0085,2025-03-21 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0096,MCH_0058,2025-03-05 22:33:32.567632,Inspeção,Troca de componente
+EVT_0097,MCH_0036,2025-02-28 22:33:32.567632,Inspeção,Troca de componente
+EVT_0098,MCH_0040,2025-04-13 22:33:32.567632,Preventiva,Troca de componente
+EVT_0099,MCH_0031,2025-04-13 22:33:32.567632,Corretiva,Lubrificação
+EVT_0100,MCH_0038,2025-03-05 22:33:32.567632,Inspeção,Lubrificação
+EVT_0101,MCH_0056,2025-04-06 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0102,MCH_0006,2025-03-29 22:33:32.567632,Corretiva,Troca de componente
+EVT_0103,MCH_0078,2025-03-06 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0104,MCH_0031,2025-03-26 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0105,MCH_0066,2025-04-05 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0106,MCH_0061,2025-03-21 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0107,MCH_0020,2025-03-31 22:33:32.567632,Inspeção,Troca de componente
+EVT_0108,MCH_0007,2025-04-20 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0109,MCH_0092,2025-04-10 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0110,MCH_0067,2025-03-14 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0111,MCH_0004,2025-03-02 22:33:32.567632,Inspeção,Lubrificação
+EVT_0112,MCH_0088,2025-03-31 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0113,MCH_0031,2025-03-31 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0114,MCH_0004,2025-03-08 22:33:32.567632,Preventiva,Lubrificação
+EVT_0115,MCH_0028,2025-03-04 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0116,MCH_0011,2025-04-13 22:33:32.567632,Preventiva,Troca de componente
+EVT_0117,MCH_0093,2025-03-27 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0118,MCH_0054,2025-04-23 22:33:32.567632,Corretiva,Troca de componente
+EVT_0119,MCH_0060,2025-04-08 22:33:32.567632,Preventiva,Troca de componente
+EVT_0120,MCH_0094,2025-03-02 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0121,MCH_0021,2025-03-13 22:33:32.567632,Corretiva,Lubrificação
+EVT_0122,MCH_0036,2025-04-15 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0123,MCH_0053,2025-04-12 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0124,MCH_0096,2025-04-12 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0125,MCH_0068,2025-03-05 22:33:32.567632,Preventiva,Lubrificação
+EVT_0126,MCH_0079,2025-03-07 22:33:32.567632,Inspeção,Lubrificação
+EVT_0127,MCH_0063,2025-04-28 22:33:32.567632,Preventiva,Troca de componente
+EVT_0128,MCH_0022,2025-04-20 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0129,MCH_0011,2025-03-12 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0130,MCH_0042,2025-03-04 22:33:32.567632,Corretiva,Troca de componente
+EVT_0131,MCH_0099,2025-04-26 22:33:32.567632,Corretiva,Lubrificação
+EVT_0132,MCH_0004,2025-04-18 22:33:32.567632,Inspeção,Troca de componente
+EVT_0133,MCH_0049,2025-04-02 22:33:32.567632,Preventiva,Troca de componente
+EVT_0134,MCH_0062,2025-03-26 22:33:32.567632,Corretiva,Lubrificação
+EVT_0135,MCH_0023,2025-03-10 22:33:32.567632,Corretiva,Lubrificação
+EVT_0136,MCH_0051,2025-03-31 22:33:32.567632,Corretiva,Troca de componente
+EVT_0137,MCH_0031,2025-04-25 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0138,MCH_0055,2025-03-01 22:33:32.567632,Preventiva,Lubrificação
+EVT_0139,MCH_0033,2025-03-15 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0140,MCH_0066,2025-03-09 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0141,MCH_0061,2025-03-03 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0142,MCH_0052,2025-03-20 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0143,MCH_0023,2025-03-27 22:33:32.567632,Corretiva,Lubrificação
+EVT_0144,MCH_0089,2025-04-03 22:33:32.567632,Preventiva,Lubrificação
+EVT_0145,MCH_0011,2025-04-13 22:33:32.567632,Corretiva,Lubrificação
+EVT_0146,MCH_0043,2025-04-20 22:33:32.567632,Corretiva,Troca de componente
+EVT_0147,MCH_0044,2025-03-10 22:33:32.567632,Inspeção,Troca de componente
+EVT_0148,MCH_0043,2025-04-16 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0149,MCH_0035,2025-03-08 22:33:32.567632,Inspeção,Troca de componente
+EVT_0150,MCH_0077,2025-04-04 22:33:32.567632,Inspeção,Lubrificação
+EVT_0151,MCH_0020,2025-03-23 22:33:32.567632,Preventiva,Troca de componente
+EVT_0152,MCH_0032,2025-03-14 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0153,MCH_0091,2025-04-06 22:33:32.567632,Corretiva,Troca de componente
+EVT_0154,MCH_0045,2025-03-23 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0155,MCH_0075,2025-03-08 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0156,MCH_0063,2025-03-05 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0157,MCH_0017,2025-04-13 22:33:32.567632,Inspeção,Lubrificação
+EVT_0158,MCH_0059,2025-02-28 22:33:32.567632,Preventiva,Lubrificação
+EVT_0159,MCH_0008,2025-04-10 22:33:32.567632,Corretiva,Troca de componente
+EVT_0160,MCH_0020,2025-03-30 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0161,MCH_0003,2025-03-27 22:33:32.567632,Inspeção,Troca de componente
+EVT_0162,MCH_0047,2025-03-07 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0163,MCH_0085,2025-04-24 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0164,MCH_0084,2025-04-27 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0165,MCH_0073,2025-03-20 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0166,MCH_0086,2025-03-01 22:33:32.567632,Preventiva,Troca de componente
+EVT_0167,MCH_0014,2025-04-19 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0168,MCH_0046,2025-03-18 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0169,MCH_0008,2025-04-23 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0170,MCH_0073,2025-03-21 22:33:32.567632,Corretiva,Troca de componente
+EVT_0171,MCH_0017,2025-03-11 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0172,MCH_0029,2025-04-01 22:33:32.567632,Inspeção,Lubrificação
+EVT_0173,MCH_0097,2025-03-31 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0174,MCH_0077,2025-03-03 22:33:32.567632,Preventiva,Lubrificação
+EVT_0175,MCH_0023,2025-04-27 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0176,MCH_0042,2025-04-08 22:33:32.567632,Inspeção,Lubrificação
+EVT_0177,MCH_0041,2025-03-01 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0178,MCH_0014,2025-04-01 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0179,MCH_0023,2025-04-08 22:33:32.567632,Preventiva,Troca de componente
+EVT_0180,MCH_0047,2025-04-10 22:33:32.567632,Corretiva,Lubrificação
+EVT_0181,MCH_0020,2025-03-15 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0182,MCH_0011,2025-03-24 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0183,MCH_0090,2025-03-25 22:33:32.567632,Inspeção,Lubrificação
+EVT_0184,MCH_0014,2025-04-17 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0185,MCH_0096,2025-04-20 22:33:32.567632,Inspeção,Lubrificação
+EVT_0186,MCH_0063,2025-03-05 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0187,MCH_0047,2025-03-13 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0188,MCH_0012,2025-03-16 22:33:32.567632,Inspeção,Troca de componente
+EVT_0189,MCH_0064,2025-03-12 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0190,MCH_0076,2025-04-22 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0191,MCH_0094,2025-03-25 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0192,MCH_0083,2025-04-05 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0193,MCH_0015,2025-03-20 22:33:32.567632,Inspeção,Troca de componente
+EVT_0194,MCH_0035,2025-04-24 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0195,MCH_0032,2025-04-25 22:33:32.567632,Corretiva,Troca de componente
+EVT_0196,MCH_0053,2025-04-17 22:33:32.567632,Preventiva,Lubrificação
+EVT_0197,MCH_0082,2025-03-11 22:33:32.567632,Preventiva,Troca de componente
+EVT_0198,MCH_0075,2025-04-07 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0199,MCH_0071,2025-03-23 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0200,MCH_0057,2025-03-03 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0201,MCH_0048,2025-03-15 22:33:32.567632,Corretiva,Lubrificação
+EVT_0202,MCH_0089,2025-04-26 22:33:32.567632,Corretiva,Lubrificação
+EVT_0203,MCH_0045,2025-03-05 22:33:32.567632,Corretiva,Lubrificação
+EVT_0204,MCH_0012,2025-03-10 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0205,MCH_0007,2025-03-02 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0206,MCH_0042,2025-03-13 22:33:32.567632,Corretiva,Lubrificação
+EVT_0207,MCH_0091,2025-04-18 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0208,MCH_0090,2025-03-19 22:33:32.567632,Corretiva,Lubrificação
+EVT_0209,MCH_0062,2025-04-14 22:33:32.567632,Corretiva,Troca de componente
+EVT_0210,MCH_0100,2025-03-21 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0211,MCH_0073,2025-03-25 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0212,MCH_0036,2025-04-18 22:33:32.567632,Preventiva,Lubrificação
+EVT_0213,MCH_0070,2025-04-01 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0214,MCH_0047,2025-03-05 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0215,MCH_0034,2025-04-03 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0216,MCH_0088,2025-04-08 22:33:32.567632,Inspeção,Troca de componente
+EVT_0217,MCH_0052,2025-03-13 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0218,MCH_0057,2025-04-02 22:33:32.567632,Preventiva,Lubrificação
+EVT_0219,MCH_0034,2025-04-07 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0220,MCH_0058,2025-04-28 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0221,MCH_0098,2025-04-12 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0222,MCH_0045,2025-03-05 22:33:32.567632,Corretiva,Troca de componente
+EVT_0223,MCH_0037,2025-04-03 22:33:32.567632,Preventiva,Troca de componente
+EVT_0224,MCH_0042,2025-03-08 22:33:32.567632,Corretiva,Troca de componente
+EVT_0225,MCH_0015,2025-03-11 22:33:32.567632,Preventiva,Troca de componente
+EVT_0226,MCH_0045,2025-03-04 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0227,MCH_0021,2025-04-13 22:33:32.567632,Corretiva,Lubrificação
+EVT_0228,MCH_0052,2025-02-28 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0229,MCH_0079,2025-04-28 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0230,MCH_0014,2025-03-27 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0231,MCH_0073,2025-04-19 22:33:32.567632,Corretiva,Troca de componente
+EVT_0232,MCH_0099,2025-03-14 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0233,MCH_0086,2025-02-28 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0234,MCH_0023,2025-04-20 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0235,MCH_0004,2025-04-04 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0236,MCH_0052,2025-03-10 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0237,MCH_0046,2025-03-06 22:33:32.567632,Corretiva,Lubrificação
+EVT_0238,MCH_0061,2025-04-15 22:33:32.567632,Inspeção,Troca de componente
+EVT_0239,MCH_0035,2025-04-02 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0240,MCH_0091,2025-03-12 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0241,MCH_0021,2025-03-04 22:33:32.567632,Corretiva,Lubrificação
+EVT_0242,MCH_0075,2025-03-17 22:33:32.567632,Inspeção,Troca de componente
+EVT_0243,MCH_0060,2025-04-21 22:33:32.567632,Inspeção,Lubrificação
+EVT_0244,MCH_0055,2025-04-07 22:33:32.567632,Preventiva,Troca de componente
+EVT_0245,MCH_0064,2025-03-02 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0246,MCH_0036,2025-03-25 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0247,MCH_0021,2025-04-12 22:33:32.567632,Corretiva,Troca de componente
+EVT_0248,MCH_0020,2025-03-08 22:33:32.567632,Inspeção,Lubrificação
+EVT_0249,MCH_0083,2025-04-18 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0250,MCH_0041,2025-03-31 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0251,MCH_0019,2025-03-26 22:33:32.567632,Preventiva,Troca de componente
+EVT_0252,MCH_0094,2025-03-31 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0253,MCH_0093,2025-03-13 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0254,MCH_0093,2025-03-18 22:33:32.567632,Preventiva,Lubrificação
+EVT_0255,MCH_0035,2025-04-18 22:33:32.567632,Preventiva,Lubrificação
+EVT_0256,MCH_0099,2025-03-10 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0257,MCH_0020,2025-03-09 22:33:32.567632,Corretiva,Troca de componente
+EVT_0258,MCH_0016,2025-03-24 22:33:32.567632,Preventiva,Lubrificação
+EVT_0259,MCH_0091,2025-03-26 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0260,MCH_0070,2025-03-08 22:33:32.567632,Corretiva,Troca de componente
+EVT_0261,MCH_0045,2025-03-20 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0262,MCH_0025,2025-03-04 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0263,MCH_0033,2025-04-17 22:33:32.567632,Inspeção,Troca de componente
+EVT_0264,MCH_0095,2025-03-09 22:33:32.567632,Corretiva,Lubrificação
+EVT_0265,MCH_0093,2025-04-02 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0266,MCH_0009,2025-02-28 22:33:32.567632,Preventiva,Lubrificação
+EVT_0267,MCH_0061,2025-03-21 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0268,MCH_0082,2025-03-17 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0269,MCH_0003,2025-03-23 22:33:32.567632,Corretiva,Troca de componente
+EVT_0270,MCH_0005,2025-03-03 22:33:32.567632,Inspeção,Lubrificação
+EVT_0271,MCH_0076,2025-04-02 22:33:32.567632,Inspeção,Troca de componente
+EVT_0272,MCH_0020,2025-04-17 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0273,MCH_0092,2025-04-23 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0274,MCH_0021,2025-03-25 22:33:32.567632,Inspeção,Lubrificação
+EVT_0275,MCH_0010,2025-03-03 22:33:32.567632,Corretiva,Lubrificação
+EVT_0276,MCH_0097,2025-04-22 22:33:32.567632,Inspeção,Lubrificação
+EVT_0277,MCH_0028,2025-04-23 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0278,MCH_0100,2025-04-18 22:33:32.567632,Preventiva,Lubrificação
+EVT_0279,MCH_0006,2025-03-30 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0280,MCH_0100,2025-03-28 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0281,MCH_0012,2025-04-25 22:33:32.567632,Inspeção,Troca de componente
+EVT_0282,MCH_0032,2025-03-15 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0283,MCH_0019,2025-04-02 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0284,MCH_0060,2025-04-14 22:33:32.567632,Inspeção,Troca de componente
+EVT_0285,MCH_0070,2025-03-28 22:33:32.567632,Preventiva,Lubrificação
+EVT_0286,MCH_0059,2025-03-11 22:33:32.567632,Preventiva,Lubrificação
+EVT_0287,MCH_0092,2025-04-13 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0288,MCH_0024,2025-03-22 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0289,MCH_0035,2025-04-26 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0290,MCH_0097,2025-03-04 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0291,MCH_0081,2025-04-20 22:33:32.567632,Inspeção,Lubrificação
+EVT_0292,MCH_0028,2025-04-19 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0293,MCH_0069,2025-03-20 22:33:32.567632,Inspeção,Troca de componente
+EVT_0294,MCH_0062,2025-04-23 22:33:32.567632,Preventiva,Lubrificação
+EVT_0295,MCH_0062,2025-03-04 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0296,MCH_0099,2025-04-23 22:33:32.567632,Preventiva,Troca de componente
+EVT_0297,MCH_0099,2025-04-13 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0298,MCH_0062,2025-02-28 22:33:32.567632,Inspeção,Lubrificação
+EVT_0299,MCH_0031,2025-04-01 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0300,MCH_0009,2025-04-03 22:33:32.567632,Inspeção,Lubrificação
+EVT_0301,MCH_0061,2025-03-06 22:33:32.567632,Inspeção,Lubrificação
+EVT_0302,MCH_0083,2025-03-10 22:33:32.567632,Corretiva,Lubrificação
+EVT_0303,MCH_0058,2025-04-01 22:33:32.567632,Corretiva,Lubrificação
+EVT_0304,MCH_0042,2025-03-18 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0305,MCH_0056,2025-03-12 22:33:32.567632,Inspeção,Lubrificação
+EVT_0306,MCH_0095,2025-03-12 22:33:32.567632,Inspeção,Lubrificação
+EVT_0307,MCH_0083,2025-04-28 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0308,MCH_0066,2025-03-13 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0309,MCH_0086,2025-03-19 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0310,MCH_0049,2025-03-31 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0311,MCH_0037,2025-03-03 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0312,MCH_0092,2025-03-03 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0313,MCH_0061,2025-03-18 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0314,MCH_0058,2025-03-04 22:33:32.567632,Preventiva,Lubrificação
+EVT_0315,MCH_0081,2025-04-10 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0316,MCH_0023,2025-04-03 22:33:32.567632,Corretiva,Lubrificação
+EVT_0317,MCH_0087,2025-04-11 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0318,MCH_0050,2025-04-10 22:33:32.567632,Inspeção,Lubrificação
+EVT_0319,MCH_0098,2025-04-13 22:33:32.567632,Corretiva,Troca de componente
+EVT_0320,MCH_0052,2025-03-20 22:33:32.567632,Inspeção,Lubrificação
+EVT_0321,MCH_0038,2025-04-28 22:33:32.567632,Inspeção,Troca de componente
+EVT_0322,MCH_0020,2025-03-05 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0323,MCH_0074,2025-04-24 22:33:32.567632,Inspeção,Troca de componente
+EVT_0324,MCH_0037,2025-03-08 22:33:32.567632,Corretiva,Lubrificação
+EVT_0325,MCH_0048,2025-03-19 22:33:32.567632,Corretiva,Troca de componente
+EVT_0326,MCH_0014,2025-04-17 22:33:32.567632,Corretiva,Troca de componente
+EVT_0327,MCH_0047,2025-03-21 22:33:32.567632,Inspeção,Troca de componente
+EVT_0328,MCH_0025,2025-03-02 22:33:32.567632,Inspeção,Lubrificação
+EVT_0329,MCH_0012,2025-03-09 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0330,MCH_0016,2025-04-08 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0331,MCH_0030,2025-04-28 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0332,MCH_0092,2025-04-17 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0333,MCH_0048,2025-04-02 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0334,MCH_0048,2025-03-03 22:33:32.567632,Preventiva,Troca de componente
+EVT_0335,MCH_0034,2025-04-19 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0336,MCH_0026,2025-04-01 22:33:32.567632,Corretiva,Troca de componente
+EVT_0337,MCH_0098,2025-04-28 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0338,MCH_0017,2025-03-29 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0339,MCH_0095,2025-03-27 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0340,MCH_0076,2025-04-09 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0341,MCH_0037,2025-04-23 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0342,MCH_0003,2025-03-22 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0343,MCH_0049,2025-04-22 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0344,MCH_0046,2025-03-07 22:33:32.567632,Inspeção,Lubrificação
+EVT_0345,MCH_0067,2025-03-12 22:33:32.567632,Inspeção,Troca de componente
+EVT_0346,MCH_0002,2025-03-08 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0347,MCH_0070,2025-03-23 22:33:32.567632,Inspeção,Lubrificação
+EVT_0348,MCH_0022,2025-04-14 22:33:32.567632,Corretiva,Lubrificação
+EVT_0349,MCH_0031,2025-03-06 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0350,MCH_0071,2025-04-15 22:33:32.567632,Inspeção,Troca de componente
+EVT_0351,MCH_0072,2025-03-12 22:33:32.567632,Corretiva,Troca de componente
+EVT_0352,MCH_0007,2025-04-16 22:33:32.567632,Preventiva,Lubrificação
+EVT_0353,MCH_0015,2025-03-24 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0354,MCH_0024,2025-03-22 22:33:32.567632,Preventiva,Lubrificação
+EVT_0355,MCH_0068,2025-04-26 22:33:32.567632,Preventiva,Troca de componente
+EVT_0356,MCH_0098,2025-03-14 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0357,MCH_0015,2025-03-30 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0358,MCH_0005,2025-03-27 22:33:32.567632,Preventiva,Lubrificação
+EVT_0359,MCH_0046,2025-03-08 22:33:32.567632,Corretiva,Troca de componente
+EVT_0360,MCH_0048,2025-04-25 22:33:32.567632,Corretiva,Lubrificação
+EVT_0361,MCH_0081,2025-03-25 22:33:32.567632,Inspeção,Troca de componente
+EVT_0362,MCH_0041,2025-04-15 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0363,MCH_0047,2025-03-18 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0364,MCH_0027,2025-03-23 22:33:32.567632,Preventiva,Troca de componente
+EVT_0365,MCH_0056,2025-04-04 22:33:32.567632,Corretiva,Troca de componente
+EVT_0366,MCH_0009,2025-04-21 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0367,MCH_0100,2025-03-19 22:33:32.567632,Inspeção,Lubrificação
+EVT_0368,MCH_0009,2025-03-19 22:33:32.567632,Corretiva,Troca de componente
+EVT_0369,MCH_0069,2025-04-10 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0370,MCH_0022,2025-04-14 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0371,MCH_0021,2025-03-01 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0372,MCH_0005,2025-04-02 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0373,MCH_0031,2025-03-19 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0374,MCH_0097,2025-04-13 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0375,MCH_0052,2025-03-31 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0376,MCH_0092,2025-03-19 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0377,MCH_0076,2025-04-15 22:33:32.567632,Inspeção,Troca de componente
+EVT_0378,MCH_0032,2025-03-28 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0379,MCH_0052,2025-03-06 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0380,MCH_0069,2025-03-24 22:33:32.567632,Corretiva,Troca de componente
+EVT_0381,MCH_0091,2025-03-15 22:33:32.567632,Inspeção,Troca de componente
+EVT_0382,MCH_0026,2025-04-05 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0383,MCH_0008,2025-03-14 22:33:32.567632,Inspeção,Troca de componente
+EVT_0384,MCH_0091,2025-03-19 22:33:32.567632,Preventiva,Troca de componente
+EVT_0385,MCH_0006,2025-04-07 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0386,MCH_0031,2025-03-10 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0387,MCH_0071,2025-04-20 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0388,MCH_0097,2025-03-20 22:33:32.567632,Inspeção,Lubrificação
+EVT_0389,MCH_0017,2025-04-10 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0390,MCH_0099,2025-04-16 22:33:32.567632,Corretiva,Troca de componente
+EVT_0391,MCH_0050,2025-04-05 22:33:32.567632,Preventiva,Lubrificação
+EVT_0392,MCH_0046,2025-03-29 22:33:32.567632,Inspeção,Troca de componente
+EVT_0393,MCH_0067,2025-04-02 22:33:32.567632,Inspeção,Lubrificação
+EVT_0394,MCH_0005,2025-04-08 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0395,MCH_0037,2025-03-16 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0396,MCH_0014,2025-03-17 22:33:32.567632,Corretiva,Lubrificação
+EVT_0397,MCH_0061,2025-03-29 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0398,MCH_0053,2025-04-06 22:33:32.567632,Preventiva,Troca de componente
+EVT_0399,MCH_0080,2025-04-28 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0400,MCH_0053,2025-04-20 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0401,MCH_0086,2025-03-27 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0402,MCH_0045,2025-04-25 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0403,MCH_0024,2025-03-03 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0404,MCH_0059,2025-04-08 22:33:32.567632,Inspeção,Troca de componente
+EVT_0405,MCH_0072,2025-04-23 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0406,MCH_0060,2025-04-18 22:33:32.567632,Inspeção,Lubrificação
+EVT_0407,MCH_0073,2025-03-27 22:33:32.567632,Corretiva,Lubrificação
+EVT_0408,MCH_0022,2025-03-19 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0409,MCH_0018,2025-04-10 22:33:32.567632,Corretiva,Troca de componente
+EVT_0410,MCH_0043,2025-04-19 22:33:32.567632,Preventiva,Troca de componente
+EVT_0411,MCH_0093,2025-04-24 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0412,MCH_0086,2025-03-01 22:33:32.567632,Preventiva,Lubrificação
+EVT_0413,MCH_0070,2025-03-19 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0414,MCH_0028,2025-03-16 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0415,MCH_0013,2025-03-21 22:33:32.567632,Inspeção,Lubrificação
+EVT_0416,MCH_0018,2025-03-22 22:33:32.567632,Inspeção,Troca de componente
+EVT_0417,MCH_0092,2025-03-01 22:33:32.567632,Preventiva,Troca de componente
+EVT_0418,MCH_0084,2025-04-08 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0419,MCH_0078,2025-03-11 22:33:32.567632,Corretiva,Lubrificação
+EVT_0420,MCH_0059,2025-04-11 22:33:32.567632,Preventiva,Lubrificação
+EVT_0421,MCH_0023,2025-03-06 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0422,MCH_0030,2025-04-14 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0423,MCH_0050,2025-03-02 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0424,MCH_0082,2025-03-07 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0425,MCH_0059,2025-03-10 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0426,MCH_0024,2025-03-10 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0427,MCH_0039,2025-03-31 22:33:32.567632,Corretiva,Troca de componente
+EVT_0428,MCH_0030,2025-03-18 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0429,MCH_0007,2025-03-01 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0430,MCH_0026,2025-04-24 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0431,MCH_0095,2025-04-09 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0432,MCH_0026,2025-03-08 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0433,MCH_0058,2025-04-11 22:33:32.567632,Inspeção,Troca de componente
+EVT_0434,MCH_0012,2025-03-04 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0435,MCH_0081,2025-04-14 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0436,MCH_0077,2025-03-17 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0437,MCH_0073,2025-03-25 22:33:32.567632,Preventiva,Lubrificação
+EVT_0438,MCH_0086,2025-04-09 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0439,MCH_0071,2025-04-06 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0440,MCH_0048,2025-04-27 22:33:32.567632,Corretiva,Troca de componente
+EVT_0441,MCH_0053,2025-04-12 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0442,MCH_0043,2025-03-15 22:33:32.567632,Preventiva,Lubrificação
+EVT_0443,MCH_0059,2025-04-20 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0444,MCH_0092,2025-03-21 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0445,MCH_0049,2025-03-01 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0446,MCH_0020,2025-03-29 22:33:32.567632,Preventiva,Lubrificação
+EVT_0447,MCH_0071,2025-03-30 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0448,MCH_0077,2025-03-11 22:33:32.567632,Preventiva,Lubrificação
+EVT_0449,MCH_0007,2025-04-18 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0450,MCH_0056,2025-04-09 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0451,MCH_0005,2025-03-13 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0452,MCH_0041,2025-04-19 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0453,MCH_0090,2025-04-04 22:33:32.567632,Inspeção,Troca de componente
+EVT_0454,MCH_0063,2025-04-21 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0455,MCH_0081,2025-04-10 22:33:32.567632,Inspeção,Lubrificação
+EVT_0456,MCH_0031,2025-03-24 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0457,MCH_0066,2025-04-13 22:33:32.567632,Corretiva,Troca de componente
+EVT_0458,MCH_0085,2025-03-10 22:33:32.567632,Preventiva,Troca de componente
+EVT_0459,MCH_0068,2025-04-05 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0460,MCH_0001,2025-03-16 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0461,MCH_0025,2025-03-19 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0462,MCH_0029,2025-04-19 22:33:32.567632,Preventiva,Lubrificação
+EVT_0463,MCH_0074,2025-04-06 22:33:32.567632,Corretiva,Troca de componente
+EVT_0464,MCH_0036,2025-03-06 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0465,MCH_0072,2025-03-08 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0466,MCH_0032,2025-03-27 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0467,MCH_0091,2025-04-28 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0468,MCH_0077,2025-03-02 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0469,MCH_0031,2025-04-23 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0470,MCH_0082,2025-04-19 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0471,MCH_0064,2025-04-28 22:33:32.567632,Corretiva,Ajuste operacional
+EVT_0472,MCH_0029,2025-03-07 22:33:32.567632,Corretiva,Lubrificação
+EVT_0473,MCH_0045,2025-04-10 22:33:32.567632,Preventiva,Troca de componente
+EVT_0474,MCH_0069,2025-04-08 22:33:32.567632,Corretiva,Troca de componente
+EVT_0475,MCH_0069,2025-04-05 22:33:32.567632,Inspeção,Troca de componente
+EVT_0476,MCH_0090,2025-03-06 22:33:32.567632,Corretiva,Troca de componente
+EVT_0477,MCH_0088,2025-03-29 22:33:32.567632,Corretiva,Troca de componente
+EVT_0478,MCH_0042,2025-03-27 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0479,MCH_0022,2025-03-17 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0480,MCH_0002,2025-04-28 22:33:32.567632,Inspeção,Troca de componente
+EVT_0481,MCH_0045,2025-03-03 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0482,MCH_0098,2025-03-25 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0483,MCH_0083,2025-03-15 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0484,MCH_0037,2025-03-17 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0485,MCH_0087,2025-04-09 22:33:32.567632,Preventiva,Lubrificação
+EVT_0486,MCH_0083,2025-03-28 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0487,MCH_0080,2025-04-12 22:33:32.567632,Corretiva,Troca de componente
+EVT_0488,MCH_0026,2025-04-25 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0489,MCH_0094,2025-04-18 22:33:32.567632,Preventiva,Lubrificação
+EVT_0490,MCH_0068,2025-02-28 22:33:32.567632,Preventiva,Lubrificação
+EVT_0491,MCH_0034,2025-04-11 22:33:32.567632,Corretiva,Verificação de anomalia
+EVT_0492,MCH_0026,2025-02-28 22:33:32.567632,Corretiva,Lubrificação
+EVT_0493,MCH_0085,2025-04-19 22:33:32.567632,Corretiva,Troca de componente
+EVT_0494,MCH_0043,2025-03-11 22:33:32.567632,Preventiva,Ajuste operacional
+EVT_0495,MCH_0037,2025-04-06 22:33:32.567632,Corretiva,Lubrificação
+EVT_0496,MCH_0068,2025-03-26 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0497,MCH_0016,2025-04-20 22:33:32.567632,Inspeção,Ajuste operacional
+EVT_0498,MCH_0097,2025-03-24 22:33:32.567632,Inspeção,Verificação de anomalia
+EVT_0499,MCH_0017,2025-03-15 22:33:32.567632,Preventiva,Verificação de anomalia
+EVT_0500,MCH_0010,2025-03-24 22:33:32.567632,Inspeção,Verificação de anomalia

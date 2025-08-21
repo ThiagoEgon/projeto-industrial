@@ -1,0 +1,41 @@
+# schema.yml (staging)
+version: 2
+
+models:
+  - name: stg_eventos_manutencao
+    description: "Eventos de manutenção ingeridos do data lake (processed)"
+    columns:
+      - name: id_evento
+        description: "Identificador único do evento"
+      - name: id_maquina
+        description: "Chave de máquina (join com dim_maquina)"
+      - name: data_evento
+        description: "Data/hora do evento"
+      - name: tipo_evento
+        description: "Tipo do evento (Preventiva/Corretiva/Inspeção)"
+      - name: descricao
+        description: "Descrição do evento"
+
+  - name: stg_maquinas
+    description: "Cadastro de máquinas"
+    columns:
+      - name: id_maquina
+        description: "Identificador da máquina"
+      - name: tipo
+        description: "Tipo do equipamento"
+      - name: localizacao
+        description: "Localização/Unidade"
+
+  - name: stg_sensores
+    description: "Leituras de sensores por timestamp"
+    columns:
+      - name: timestamp
+        description: "Data/hora da leitura"
+      - name: id_maquina
+        description: "Chave de máquina (join com dim_maquina)"
+      - name: temperatura_c
+        description: "Temperatura (°C)"
+      - name: pressao_psi
+        description: "Pressão (PSI)"
+      - name: vibracao_mm_s
+        description: "Vibração (mm/s)"

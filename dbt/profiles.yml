@@ -1,0 +1,21 @@
+# profiles.yml
+# Profile do dbt para DuckDB com leitura via httpfs (S3/MinIO).
+# O arquivo DuckDB é compartilhado com o Airflow via volume /opt/airflow/data.
+# As credenciais S3/MinIO são obtidas por env vars (ver docker-compose).
+
+pipeline_manutencao:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: /opt/airflow/data/duckdb_pipeline.duckdb  # DW local compartilhado
+      schema: main
+      threads: 1
+      extensions: ["httpfs"]  # permite parquet_scan/ler s3://
+      settings:
+        s3_endpoint: "minio:9000"  # endpoint interno entre containers
+        s3_access_key_id: "{{ env_var('DBT_DUCKDB_S3_ACCESS_KEY_ID') }}"
+        s3_secret_access_key: "{{ env_var('DBT_DUCKDB_S3_SECRET_ACCESS_KEY') }}"
+        s3_url_style: "path"
+        s3_use_ssl: false
+

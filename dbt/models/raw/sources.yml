@@ -1,0 +1,44 @@
+version: 2
+
+sources:
+  - name: raw_data
+    description: "Fontes de dados brutos carregadas a partir de arquivos CSV no MinIO"
+    schema: main
+    tables:
+      - name: eventos_manutencao
+        description: "Tabela de eventos de manutenção registrada a partir do CSV original"
+        columns:
+          - name: id_evento
+            description: "Identificador único do evento"
+          - name: id_maquina
+            description: "Identificador da máquina associada ao evento"
+          - name: data_evento
+            description: "Data em que o evento ocorreu"
+          - name: tipo_evento
+            description: "Tipo do evento de manutenção"
+          - name: descricao
+            description: "Descrição detalhada do evento"
+
+      - name: maquinas
+        description: "Tabela de máquinas registrada a partir do CSV original"
+        columns:
+          - name: id_maquina
+            description: "Identificador único da máquina"
+          - name: tipo
+            description: "Tipo ou categoria da máquina"
+          - name: localizacao
+            description: "Localização física da máquina"
+
+      - name: sensores
+        description: "Tabela de sensores registrada a partir do CSV original"
+        columns:
+          - name: timestamp
+            description: "Data e hora da leitura do sensor"
+          - name: id_maquina
+            description: "Identificador da máquina que forneceu os dados"
+          - name: temperatura_c
+            description: "Temperatura registrada (°C)"
+          - name: pressao_psi
+            description: "Pressão registrada (PSI)"
+          - name: vibracao_mm_s
+            description: "Nível de vibração registrado (mm/s)"
